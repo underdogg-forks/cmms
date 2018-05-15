@@ -1,0 +1,23 @@
+{
+    "routePrefix": "priorities",
+    "sections": [{
+        "columns": "2",
+        "fields": [{
+            "label": "Name",
+            "name": "name",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Color",
+            "name": "color",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }]
+    }]
+}

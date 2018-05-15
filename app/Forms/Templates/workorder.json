@@ -1,0 +1,75 @@
+{
+    "routePrefix": "workorders",
+    "sections": [{
+        "columns": "2",
+        "fields": [{
+            "label": "Subject",
+            "name": "subject",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Description",
+            "name": "description",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }, {
+            "label": "Customer",
+            "name": "customer_id",
+            "value": null,
+            "meta": {
+                "custom": true,
+                "type": "select",
+                "multiple": false,
+                "options": [],
+                "source": "customers.selectOptions"
+            }
+        }, {
+            "label": "Contractor",
+            "name": "contractor_id",
+            "value": null,
+            "meta": {
+                "custom": true,
+                "type": "select",
+                "multiple": false,
+                "options": [],
+                "source": "contractors.selectOptions"
+            }
+        }, {
+            "label": "Status",
+            "name": "status_id",
+            "value": null,
+            "meta": {
+                "custom": true,
+                "type": "select",
+                "multiple": false,
+                "options": [],
+                "source": "statuses.selectOptions"
+            }
+        }, {
+            "label": "Priority",
+            "name": "priority_id",
+            "value": null,
+            "meta": {
+                "custom": true,
+                "type": "select",
+                "multiple": false,
+                "options": [],
+                "source": "priorities.selectOptions"
+            }
+        }, {
+            "label": "Active",
+            "name": "is_active",
+            "value": true,
+            "meta": {
+                "type": "input",
+                "content": "checkbox"
+            }
+        }]
+    }]
+}

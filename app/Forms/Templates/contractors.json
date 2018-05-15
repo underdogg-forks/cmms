@@ -1,0 +1,48 @@
+{
+  "routePrefix": "contractors",
+  "sections": [{
+    "columns": "2",
+    "fields": [{
+      "label": "Name",
+      "name": "name",
+      "value": null,
+      "meta": {
+        "type": "input",
+        "content": "text"
+      }
+    }, {
+      "label": "Description",
+      "name": "description",
+      "value": null,
+      "meta": {
+        "type": "input",
+        "content": "text"
+      }
+    }, {
+
+      "label": "Email",
+      "name": "email",
+      "value": null,
+      "meta": {
+        "type": "input",
+        "content": "email"
+      }
+    }, {
+      "label": "Phone Number",
+      "name": "phone",
+      "value": null,
+      "meta": {
+        "type": "input",
+        "content": "text"
+      }
+    }, {
+      "label": "Active",
+      "name": "is_active",
+      "value": false,
+      "meta": {
+        "type": "input",
+        "content": "checkbox"
+      }
+    }]
+  }]
+}
