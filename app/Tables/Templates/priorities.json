@@ -1,0 +1,23 @@
+{
+    "routePrefix": "priorities",
+    "readSuffix": "getTableData",
+    "writeSuffix": null,
+    "name": "Priorities",
+    "icon": "priorities",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Name",
+            "name": "name",
+            "data": "priorities.name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Colour",
+            "name": "color",
+            "data": "priorities.color",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

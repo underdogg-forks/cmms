@@ -1,0 +1,70 @@
+{
+    "routePrefix": "workorders",
+    "readSuffix": "getTableData",
+    "writeSuffix": null,
+    "name": "Work Orders",
+    "icon": ["fab", "vuejs"],
+    "crtNo": true,
+    "buttons": ["excel", "create", "edit", "destroy"],
+
+    "columns": [
+        {
+            "label": "Customer",
+            "name": "customer",
+            "data": "customers.name",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        }, {
+            "label": "Contractor",
+            "name": "contractor",
+            "data": "contractors.name",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        }, {
+            "label": "Location",
+            "name": "location",
+            "data": "addresses.city",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        }, {
+            "label": "Status",
+            "name": "status",
+            "data": "statuses.name",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        }, {
+            "label": "Priority",
+            "name": "priority",
+            "data": "priorities.name",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        }, {
+            "label": "Subject",
+            "name": "subject",
+            "data": "work_orders.subject",
+            "meta": [
+                "searchable",
+                "sortable"
+            ]
+        }, {
+            "label": "Description",
+            "name": "description",
+            "data": "work_orders.description",
+            "meta": [
+                "searchable",
+                "sortable",
+                "clickable"
+            ]
+        }
+    ]
+}

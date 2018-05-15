@@ -1,0 +1,35 @@
+{
+    "routePrefix": "contractors",
+    "readSuffix": "getTableData",
+    "writeSuffix": null,
+    "name": "Contractors",
+    "icon": "contractors",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Name",
+            "name": "name",
+            "data": "contractors.name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Phone",
+            "name": "phone",
+            "data": "contractors.phone",
+            "meta": ["searchable","sortable"]
+        },
+        {
+            "label": "Email",
+            "name": "email",
+            "data": "contractors.email",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Active",
+            "name": "is_active",
+            "data": "contractors.is_active",
+            "meta": ["boolean"]
+        }
+    ]
+}

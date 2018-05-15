@@ -1,0 +1,23 @@
+{
+    "routePrefix": "statuses",
+    "readSuffix": "getTableData",
+    "writeSuffix": null,
+    "name": "Statuses",
+    "icon": "statuses",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Name",
+            "name": "name",
+            "data": "statuses.name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Colour",
+            "name": "color",
+            "data": "statuses.color",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}
