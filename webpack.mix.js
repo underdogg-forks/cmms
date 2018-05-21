@@ -1,6 +1,8 @@
 const { mix } = require('laravel-mix');
 
 mix
+
+
     .options({
         hmrOptions: {
             port: '3030',
@@ -12,6 +14,8 @@ mix
     .sourceMaps()
 
     .sass('resources/assets/sass/enso.scss', 'public/css');
+
+
 
 // .sass('resources/assets/sass/themes/cerulean.scss', 'public/themes/cerulean/bulma.min.css')
 // .sass('resources/assets/sass/themes/clean.scss', 'public/themes/clean/bulma.min.css')
