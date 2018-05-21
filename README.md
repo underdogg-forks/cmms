@@ -1,51 +1,42 @@
 <!--h-->
-# Laravel Enso
-[![StyleCI](https://styleci.io/repos/95136264/shield?branch=master)](https://styleci.io/repos/95136264)
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/laravel-enso/Enso.svg?columns=all)](https://waffle.io/laravel-enso/Enso)
+# CMMS (Built on Laravel Enso)
 <!--/h-->
 
-*Hit the ground running when building your new Laravel SPA project with boilerplate and extra functionality out of the box!*
+* Laravel SPA project with boilerplate and extra functionality out of the box for property services industry
 
 &nbsp;
 
-[![Watch the demo](https://laravel-enso.github.io/enso/screenshots/bulma_cap000_thumb.png)](https://laravel-enso.github.io/enso/videos/bulma_quick_walkthrough.webm)
-
-<sup>click on the photo to view a short demo in compatible browsers</sup>
-
 ### Important
 
-If you are using this project please consult the **[changelog](https://github.com/laravel-enso/Enso/blob/master/CHANGELOG.md)** on every update.
-
-For the v1.x / adminlte version, take a look at the **[adminlte](https://github.com/laravel-enso/Enso/tree/adminlte)** branch.
-
+This is under development and it is not intended to be used in a production environment yet.
 <!--h-->
 ### Official Documentation
+
+No documentation for CMMS currently produced.
+
+### Official Laravel Enso Documentation
 
 The documentation is available [here](https://docs.laravel-enso.com).
 Note that most sections have short demo clips.
 
 <!--/h-->
 
-### Take It For A Spin
-
 You may try out a live demo installation by visiting [laravel-enso.com](https://www.laravel-enso.com) 
 and logging in with `admin@laravel-enso.com` and `password`. 
 
 ### Installation Steps
 
-1. Download the project with `git clone https://github.com/laravel-enso/Enso.git`
+1. Download the project with `git clone https://github.com/curtisdelicata/cmms.git`
 
 2. Run in the project folder `composer install`
 
 3. Configure the `.env` file. Run `php artisan key:generate`
 
-4. Run `php artisan migrate`
+4. Run `php artisan migrate:fresh --seed`
 
-5. Login into the project with user: `admin@laravel-enso.com`, password: `password`
+5. `npm install && npm run development`
 
-6. (optional) Setup the configuration files as needed, in `config/enso/*.php`
-
-7. (optional) `npm install` / `npm run dev` / `hmr` /...
+6. Login into the project with user: `admin@laravel-enso.com`, password: `password`
 
 Enjoy!
 
@@ -53,10 +44,10 @@ IMPORTANT NOTE: Due to laravel mix limitations, when using `hmr`,
 you need to comment lines 3-to-7 inside `webpack.mix.js` in order for it to work correctly. 
 Don't forget to uncomment them back when building without hot module replacement.
 
-### Using Enso for Your Project
+### Using CMMS for Your Project
 
 1. Follow the steps above to install & setup
-2. If you find Enso suited for building a project with it, delete the .git folder, run `git init`, 
+2. If you find CMMS suited for building a project with it, delete the .git folder, run `git init`, 
 and use a dedicated repo for your custom project
 4. Develop
 5. To update run `composer update` / `npm update` and compile
@@ -68,8 +59,8 @@ Due to how dependencies are defined, composer will not update the dependencies f
 that's why you need to look at the changelog, be aware of the changes, update your code and then manually update 
 the dependencies' minor version, so that you can continue to receive updates.  
 
-### With Enso you get
-A solid starting project, based on [Laravel](https://laravel.com) 5.6, [VueJS](https://vuejs.org) 2, 
+### With CMMS  you get
+A solid starting project mainly influenced by the Laravel Enso project which is based on [Laravel](https://laravel.com) 5.6, [VueJS](https://vuejs.org) 2, 
 [Bulma](https://bulma.io), integrated themes from [Bulmaswatch](https://jenil.github.io/bulmaswatch), 
 all the VueJS goodies such as [VueEx](https://vuex.vuejs.org/en) and [VueRouter](https://router.vuejs.org/en), 
 with features like: 
@@ -244,13 +235,13 @@ You may customize the footer partial to use the desired token.
 
 Built with with <span style="color:red"> &#10084;&#65039;</span>, crafted on Laravel 5.6.x, Bulma 0.6.x, Vuejs 2.5.x and:
 
-[Vue Router](https://router.vuejs.org/en), [Vuex](https://vuex.vuejs.org/en/), [Axios](https://github.com/axios/axios),
+[Laravel Enso](https://www.github.com/laravel-enso) [Vue Router](https://router.vuejs.org/en), [Vuex](https://vuex.vuejs.org/en/), [Axios](https://github.com/axios/axios),
 [Font awesome 5](https://fontawesome.com), [Animate.css](https://daneden.github.io/animate.css/), 
 [Bulmaswatch](https://jenil.github.io/bulmaswatch), [Bulma-Extensions](https://wikiki.github.io/bulma-extensions/overview),
 [Nprogress.js](http://ricostacruz.com/nprogress), [Vue-multiselect](https://github.com/monterail/vue-multiselect),
 [Intro.js](http://introjs.com/),  [Chart.js](http://chartjs.org), [Flatpickr](https://chmln.github.io/flatpickr/), 
 
-Special thanks to [Taylor Otwell](https://laravel.com/), [Jeffrey Way](https://laracasts.com), [Evan You](https://vuejs.org/) and [Jeremy Thomas](https://bulma.io).
+Special thanks to [Laravel Enso](https://www.laravel-enso.com), [Taylor Otwell](https://laravel.com/), [Jeffrey Way](https://laracasts.com), [Evan You](https://vuejs.org/) and [Jeremy Thomas](https://bulma.io).
 
 <!--h-->
 ### Contributions
